@@ -1,0 +1,103 @@
+.item_4 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+.item_5 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.item_11 {
+  grid-column-start: 0;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.item_10 {
+  grid-column-start: 0;
+  grid-column-end: 1;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.item_6 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+}
+.item_7 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+}
+.item_8 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+}
+.item_9 {
+  grid-column-start: 0;
+  grid-column-end: 1;
+  grid-row-start: 4;
+}
+
+.container {
+  border: 1px solid #ff7675;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
+  box-sizing: border-box;
+  min-height: 300px;
+}
+.cung_vi {
+  padding: 8px;
+  color: #0000ff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+}
+.cung {
+  padding: 8px;
+  color: #006600;
+  font-size: 14px;
+  text-align: center;
+  margin-left: 10px;
+}
+.tuantriet {
+  color: #ff0000;
+  font-size: 14px;
+  padding-left: 8px;
+}
+.chinhtinh {
+  color: #0066ff;
+  font-size: 8.5pt;
+  text-align: center;
+}
+.cactinh {
+  display: grid;
+  grid-template-columns: 50% 1fr;
+}
+.cactinh_child {
+  height: 12px;
+}
+.hungtinh,
+.cattinh {
+  font-size: 12px;
+  padding-left: 8px;
+}
+.sao {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  flex: 1;
+  align-items: flex-end;
+}
+.amduong {
+  color: blue;
+}

@@ -1,0 +1,50 @@
+.note {
+  display: flex;
+  flex-wrap: wrap;
+  height: 26px;
+  font: 15px / 1.52em Roboto, Arial, sans-serif;
+}
+.span {
+  color: red;
+}
+.children {
+  margin: 0 10px 10px 10px;
+}
+.typeNote {
+  list-style-type: none;
+  display: flex;
+  margin: 0 0 1px 1px;
+  padding: 0;
+}
+
+.sprite_squareVang {
+  background-position: -792px -620px;
+  width: 8px;
+  height: 8px;
+}
+.sprite_squareXanh {
+  background-position: -808px -620px;
+  width: 8px;
+  height: 8px;
+}
+.sprite_squareXanhThuy {
+  background-position: -816px -620px;
+  width: 8px;
+  height: 8px;
+}
+.sprite_squareHong {
+  background-position: -784px -620px;
+  width: 8px;
+  height: 8px;
+}
+.sprite_squareXam {
+  background-position: -800px -620px;
+  width: 8px;
+  height: 8px;
+}
+.icon {
+  background-image: url("../../../public/sprite-4.png");
+  display: inline-block;
+  margin: 8px 2px 0 0;
+  margin-left: 10px;
+}

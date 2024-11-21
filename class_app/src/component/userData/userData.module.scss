@@ -1,0 +1,14 @@
+.contentMain {
+  display: flex;
+  line-height: 2;
+  vertical-align: middle;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background-color: #ffffcc;
+  box-sizing: border-box;
+}
